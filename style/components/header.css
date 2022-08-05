@@ -27,6 +27,7 @@
    gap: 30px;
 }
 
+/* nav right */
 .seatch-panel{
    opacity: 0;
    visibility: hidden;
@@ -60,7 +61,6 @@
    align-items: center;
 }
 
-/* nav right */
 .btn {
    height: 46px;
    line-height: 46px;

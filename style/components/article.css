@@ -1,0 +1,30 @@
+.article{
+   max-width: 1320px;
+   height: 590px;
+   background-image: url('../../img/article-Image.png');
+   margin-bottom: 50px;
+}
+.article__item{
+   background: #fff;
+   max-width: 510px;
+   padding: 75px 40px 95px 40px;
+   margin-left: 45px;
+}
+
+.featured{
+   font-size: 20px;
+   color: #1C1C1C80 ;
+}
+.time-mark{
+   font-size: 16px;
+   color: #1C1C1C80 ;
+   margin-bottom: 15px;
+}
+
+.artical__title{
+   font-size: 33px;
+   font-weight: 700;
+   font-family: 'Libre Baskerville', serif;
+   margin-bottom: 10px;
+   
+}
