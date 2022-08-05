@@ -1,0 +1,35 @@
+.hero-section {
+   width: 860px;
+   margin: 0 auto;
+}
+
+.hero-section__title {
+   text-align: center;
+   position: relative;
+   font-weight: 700;
+   font-size: 42px;
+   margin-bottom: 70px;
+}
+
+.hero-section__title::before {
+   position: absolute;
+   width: 190px;
+   bottom: -15px;
+   left: 50%;
+   transform: translate(-50%);
+   border-bottom: 5px solid #1C1C1C;
+   content: "";
+}
+
+.card__item-img{
+   width: 100%;
+}
+
+.card__item{
+   display: flex;
+   align-items: center;
+   gap: 55px;
+}
+.card__item:not(:last-child){
+   margin-bottom: 60px;
+}

@@ -11,7 +11,7 @@
    margin-left: 45px;
 }
 
-.featured{
+.description{
    font-size: 20px;
    color: #1C1C1C80 ;
 }
@@ -21,7 +21,7 @@
    margin-bottom: 15px;
 }
 
-.artical__title{
+.title{
    font-size: 33px;
    font-weight: 700;
    font-family: 'Libre Baskerville', serif;
