@@ -1,0 +1,28 @@
+.tags__seatch-panel {
+   border: 1px solid #000;
+   border-radius: 10px;
+   height: 46px;
+   display: flex;
+   align-items: center;
+   justify-content: end;
+   padding: 0px 10px;
+   max-width: 710px;
+   width: 100%;
+   position: relative;
+   height: 60px;
+   margin-top: 190px;
+   margin-bottom: 60px;
+   outline: none
+}
+
+.tags__search {
+   position: relative;
+   max-width: 710px;
+   margin: 0 auto;
+}
+
+.tags__search-img {
+   position: absolute;
+   right: 10px;
+   top: 15px;
+}
