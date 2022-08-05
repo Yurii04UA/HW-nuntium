@@ -21,6 +21,13 @@
    font-weight: bold;
 }
 
+.list-item{
+   transition: all 0.3s ease;
+}
+
+.list-item:hover{
+   font-weight: 700;
+}
 /* nav left */
 .nav-list {
    display: flex;

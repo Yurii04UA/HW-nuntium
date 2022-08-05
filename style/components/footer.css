@@ -1,0 +1,19 @@
+.footer{
+   max-width: 1245px;
+   margin: 0 auto;
+   background-color: #000;
+   padding: 120px 455px;
+   color: #fff;
+   text-align: center;
+}
+
+.footer__title{
+   font-family: 'Libre Baskerville', serif;
+   font-size: 33px;
+   margin-bottom: 15px;
+}
+.footer__text{
+   max-width: 330px;
+   margin: 0 auto;
+   margin-bottom: 25px;
+}

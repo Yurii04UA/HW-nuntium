@@ -3,6 +3,7 @@
    height: 590px;
    position: absolute;
    left: 45px;
+   margin-bottom: 50px;
 }
 .first-article{
    background-image: url('../../img/first-article.png');

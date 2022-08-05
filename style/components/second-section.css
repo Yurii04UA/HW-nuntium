@@ -1,0 +1,16 @@
+.second-section{
+   max-width: 1120px;
+   margin: 0 auto;
+   display: flex;
+   gap: 120px;
+   margin-bottom: 75px;
+}
+.second__card__item-img{
+   width: 237px;
+   height: 177px;
+}
+.tags{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
