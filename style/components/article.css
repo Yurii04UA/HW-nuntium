@@ -1,9 +1,20 @@
 .article{
    max-width: 1320px;
    height: 590px;
-   background-image: url('../../img/article-Image.png');
-   margin-bottom: 50px;
+   position: absolute;
+   left: 45px;
 }
+.first-article{
+   background-image: url('../../img/first-article.png');
+   background-size: cover;
+   position: relative;
+}
+.second-article{
+   background-image: url('../../img/second-article.png');
+   background-size: cover;
+   position: relative;
+}
+
 .article__item{
    background: #fff;
    max-width: 510px;
@@ -27,4 +38,11 @@
    font-family: 'Libre Baskerville', serif;
    margin-bottom: 10px;
    
+}
+
+.second-article__article__item{
+   position: absolute;
+   right: 80px;
+   top: 60px;
+  
 }

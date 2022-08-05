@@ -1,6 +1,7 @@
 .hero-section {
    width: 860px;
    margin: 0 auto;
+   margin-bottom: 60px;
 }
 
 .hero-section__title {
