@@ -26,3 +26,30 @@
    right: 10px;
    top: 15px;
 }
+
+.tags__buttons-group{
+   max-width: 1175px;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 15px;
+   margin-bottom: 150px;
+}
+
+.tags_btn{
+   height: 44px;
+   line-height: 44px;
+   padding: 0px 15px;
+   background-color: inherit;
+   border: 1px solid #000;
+   border-radius: 50px;
+   cursor: pointer;
+   margin: 0;
+   transition: all 0.3s ease;
+}
+
+.tags_btn:hover{
+   background-color: rgba(0, 0, 0);
+   color: #fff;
+}
