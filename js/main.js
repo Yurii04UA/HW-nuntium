@@ -16,3 +16,6 @@ searchInput.addEventListener("keyup", (event) => {
     searchInput.value = "";
   }
 });
+
+
+//need to add close input when i click on window
