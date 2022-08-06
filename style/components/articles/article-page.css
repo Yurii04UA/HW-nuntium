@@ -4,11 +4,11 @@
 }
 
 .first-article-page{
-   background-image: url('../../img/first-article.png');
+   background-image: url('../../../img/first-article.png');
    background-size: cover;
 }
 .second-article-page{
-   background-image: url('../../img/second-article.png');
+   background-image: url('../../../img/second-article.png');
    background-size: cover;
 }
 

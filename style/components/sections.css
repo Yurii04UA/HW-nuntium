@@ -52,3 +52,15 @@
    flex-direction: column;
    justify-content: space-between;
 }
+
+/* //Media queries */
+
+@media (max-width: 840px){
+   .title{
+      font-size: 26px;
+   }
+   .description {
+      font-size: 16px;
+   }
+}
+

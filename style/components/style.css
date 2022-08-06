@@ -1,9 +1,9 @@
 @import './header.css';
 @import './footer.css';
-@import './article.css';
+@import './article-homepage.css';
 @import './sections.css';
 @import './tags.css';
 @import './about.css';
-@import './article-page.css';
-@import './article-footer.css'
+@import './articles/article-page.css';
+@import './articles/article-footer.css'
 
