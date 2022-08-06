@@ -55,6 +55,19 @@
 
 /* //Media queries */
 
+@media (max-width: 1000px){
+  .second-section{
+   gap: 40px;
+   flex-direction: column;
+  }
+  .tags{
+   flex-direction: row;
+   gap: 20px;
+   flex-wrap: wrap;
+   justify-content: center;
+  }
+}
+
 @media (max-width: 840px){
    .title{
       font-size: 26px;
@@ -62,5 +75,34 @@
    .description {
       font-size: 16px;
    }
-}
 
+.hero-section .card__item{
+      flex-direction: column;
+      gap: 30px;
+   }
+   .card__item-img{
+      width: auto;
+   }
+  .hero-section .card-info{
+      text-align: center;
+      padding-bottom: 20px;
+      border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+   }
+   .card__item:not(:last-child) {
+      margin-bottom: 30px;
+  }
+}
+@media (max-width: 670px){
+   .card__item{
+      flex-direction: column;
+      gap: 30px;
+   }
+   .card__item-img{
+      width: auto;
+   }
+   .card-info{
+      text-align: center;
+      padding-bottom: 20px;
+      border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+   }
+}
