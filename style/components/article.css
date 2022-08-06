@@ -23,6 +23,7 @@
    max-width: 510px;
    padding: 75px 40px 95px 40px;
    margin-left: 45px;
+   display: inline-block;
 }
 
 .description{
