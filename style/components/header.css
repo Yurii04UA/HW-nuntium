@@ -35,7 +35,7 @@
 }
 
 /* nav right */
-.seatch-panel{
+.search-panel{
    opacity: 0;
    visibility: hidden;
    border: 2px solid #000;
@@ -54,11 +54,15 @@
    cursor: pointer;
 }
 
-.seatch-panel.active-search{
+/* .search-img:hover{
+   border: 1px solid;
+} */
+
+.search-panel.active-search{
    opacity: 1;
    visibility: visible;
 }
-/* .search:hover .seatch-panel{
+/* .search:hover .search-panel{
    opacity: 1;
    visibility: visible;
 } */
@@ -76,4 +80,10 @@
    border: 2px solid #000;
    border-radius: 10px;
    cursor: pointer;
+   transition: all 0.3s ease;
+}
+
+.btn:hover{
+   background-color: rgba(0, 0, 0);
+   color: #fff;
 }
