@@ -9,11 +9,13 @@
    background-image: url('../../img/first-article.png');
    background-size: cover;
    position: relative;
+   left: 0;
 }
 .second-article{
    background-image: url('../../img/second-article.png');
    background-size: cover;
    position: relative;
+   left: 0;
 }
 
 .article__item{
