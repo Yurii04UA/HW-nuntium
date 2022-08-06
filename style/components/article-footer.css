@@ -1,0 +1,20 @@
+.article-page__footer{
+   display: flex;
+   justify-content: space-between;
+}
+.article-page__footer a{
+   display: flex;
+}
+.footer-left,.footer-right{
+   display: flex;
+   align-items: center;
+   gap: 35px;
+}
+.bold{
+   font-weight: bold;
+   margin-left: 5px;
+}
+
+.footer-right img{
+   transform: rotate(180deg);
+}

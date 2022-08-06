@@ -44,6 +44,10 @@
    
 }
 
+.text:not(:last-child){
+   margin-bottom: 20px;
+}
+
 .second-article__article__item{
    position: absolute;
    right: 80px;
