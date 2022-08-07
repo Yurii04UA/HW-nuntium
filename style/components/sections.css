@@ -22,32 +22,35 @@
    content: "";
 }
 
-.card__item-img{
+.card__item-img {
    width: 100%;
 }
 
-.card__item{
+.card__item {
    display: flex;
    align-items: center;
    gap: 45px;
 }
-.card__item:not(:last-child){
+
+.card__item:not(:last-child) {
    margin-bottom: 60px;
 }
 
 /* //second section */
-.second-section{
+.second-section {
    max-width: 1120px;
    margin: 0 auto;
    display: flex;
    gap: 120px;
    margin-bottom: 75px;
 }
-.second__card__item-img{
+
+.second__card__item-img {
    width: 237px;
    height: 177px;
 }
-.tags{
+
+.tags {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
@@ -55,54 +58,72 @@
 
 /* //Media queries */
 
-@media (max-width: 1000px){
-  .second-section{
-   gap: 40px;
-   flex-direction: column;
-  }
-  .tags{
-   flex-direction: row;
-   gap: 20px;
-   flex-wrap: wrap;
-   justify-content: center;
-  }
+@media (max-width: 1000px) {
+   .second-section {
+      gap: 40px;
+      flex-direction: column;
+   }
+
+   .tags {
+      flex-direction: row;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+   }
 }
 
-@media (max-width: 840px){
-   .title{
+@media (max-width: 840px) {
+   .title {
       font-size: 26px;
    }
+
    .description {
       font-size: 16px;
    }
 
-.hero-section .card__item{
+   .hero-section .card__item {
       flex-direction: column;
       gap: 30px;
    }
-   .card__item-img{
+
+   .card__item-img {
       width: auto;
    }
-  .hero-section .card-info{
+
+   .hero-section .card-info {
       text-align: center;
       padding-bottom: 20px;
       border-bottom: 1px solid rgba(128, 128, 128, 0.5);
    }
+
    .card__item:not(:last-child) {
       margin-bottom: 30px;
-  }
+   }
+
+   .second-section {
+      margin-bottom: 30px;
+   }
 }
-@media (max-width: 670px){
-   .card__item{
+
+@media (max-width: 670px) {
+   .card__item {
       flex-direction: column;
       gap: 30px;
    }
-   .card__item-img{
+
+   .card__item-img {
       width: auto;
    }
-   .card-info{
+
+   .card-info {
       text-align: center;
       padding-bottom: 20px;
       border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+   }
+}
+
+@media (max-width: 400px) {
+   .card__item-img {
+      display: none;
    }
 }

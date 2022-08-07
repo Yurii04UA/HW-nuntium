@@ -69,3 +69,31 @@
    flex-direction: column;
    justify-content: space-between;
 }
+
+/* //Media queries */
+@media (max-width: 1000px) {
+  .tags__seatch-panel{
+   margin-top: 0;
+   margin-bottom: 50px;
+  }
+  .tags__buttons-group{
+   margin-bottom: 30px;
+   margin-bottom: 50px;
+  }
+}
+@media (max-width: 800px) {
+ .tag__cards{
+   margin: 0;
+   margin-bottom: 20px;
+ }
+ .tag__cards .card__item{
+   flex-direction: column;
+}
+ .tags__card-info{
+   text-align: center;
+   padding-bottom: 20px;
+   border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+}
+}
+
+
