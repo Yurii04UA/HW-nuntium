@@ -62,7 +62,10 @@
    margin-bottom: 115px;
    
 }
-
+.card__item-link:not(:last-child){
+   margin-bottom: 60px;
+   display: block;
+}
 .tags__card-info{
    height: 100%;
    display: flex;
