@@ -7,9 +7,10 @@
    font-weight: 400;
 }
 
-.logo-img{
+.logo-img {
    width: 178px;
 }
+
 .left,
 .nav-right {
    display: flex;

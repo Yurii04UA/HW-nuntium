@@ -1,6 +1,9 @@
 .article-page__footer {
    display: flex;
    justify-content: space-between;
+   padding: 0;
+   background-color: #fff;
+   color: #000;
 }
 
 .footer-left,
@@ -8,6 +11,11 @@
    display: flex;
    align-items: center;
    gap: 35px;
+}
+
+.arrow-link {
+   display: flex;
+   align-self: end;
 }
 
 .bold {
@@ -24,18 +32,24 @@
       width: 75px;
    }
 }
+
 @media (max-width: 800px) {
-   .footer-left,.footer-right{
+
+   .footer-left,
+   .footer-right {
       gap: 10px;
    }
-   .article-page__footer{
+
+   .article-page__footer {
       gap: 10px;
    }
 }
+
 @media (max-width: 550px) {
-   .bold{
+   .bold {
       display: none;
    }
+
    .arrow {
       width: 50px;
    }

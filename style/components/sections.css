@@ -22,9 +22,6 @@
    content: "";
 }
 
-.card__item-img {
-   width: 100%;
-}
 
 .card__item {
    display: flex;

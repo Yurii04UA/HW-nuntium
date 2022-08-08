@@ -1,3 +1,13 @@
+.container-tag {
+   display: flex;
+   flex-direction: column;
+   min-height: 100%;
+}
+
+main {
+   flex: 1 1 auto;
+}
+
 .tags__seatch-panel {
    border: 1px solid #000;
    border-radius: 10px;
@@ -10,8 +20,6 @@
    width: 100%;
    position: relative;
    height: 60px;
-   margin-top: 190px;
-   margin-bottom: 60px;
    padding: 0px 40px 0 10px;
    outline: none
 }
@@ -20,6 +28,8 @@
    position: relative;
    max-width: 710px;
    margin: 0 auto;
+   margin-top: 190px;
+   margin-bottom: 60px;
 }
 
 .tags__search-img {
@@ -28,7 +38,7 @@
    top: 15px;
 }
 
-.tags__buttons-group{
+.tags__buttons-group {
    max-width: 1175px;
    margin: 0 auto;
    display: flex;
@@ -38,7 +48,7 @@
    margin-bottom: 150px;
 }
 
-.tags_btn{
+.tags_btn {
    height: 44px;
    line-height: 44px;
    padding: 0px 15px;
@@ -50,23 +60,25 @@
    transition: all 0.3s ease;
 }
 
-.tags_btn:hover{
+.tags_btn:hover {
    background-color: rgba(0, 0, 0);
    color: #fff;
 }
 
-.tag__cards{
+.tag__cards {
    max-width: 810px;
    margin: 0 auto;
    margin-top: 115px;
    margin-bottom: 115px;
-   
+
 }
-.card__item-link:not(:last-child){
+
+.card__item-link:not(:last-child) {
    margin-bottom: 60px;
    display: block;
 }
-.tags__card-info{
+
+.tags__card-info {
    height: 100%;
    display: flex;
    flex-direction: column;
@@ -75,28 +87,30 @@
 
 /* //Media queries */
 @media (max-width: 1000px) {
-  .tags__seatch-panel{
-   margin-top: 0;
-   margin-bottom: 50px;
-  }
-  .tags__buttons-group{
-   margin-bottom: 30px;
-   margin-bottom: 50px;
-  }
+   .tags__seatch-panel {
+      margin-top: 0;
+      margin-bottom: 50px;
+   }
+
+   .tags__buttons-group {
+      margin-bottom: 30px;
+      margin-bottom: 50px;
+   }
 }
+
 @media (max-width: 800px) {
- .tag__cards{
-   margin: 0;
-   margin-bottom: 20px;
- }
- .tag__cards .card__item{
-   flex-direction: column;
-}
- .tags__card-info{
-   text-align: center;
-   padding-bottom: 20px;
-   border-bottom: 1px solid rgba(128, 128, 128, 0.5);
-}
-}
+   .tag__cards {
+      margin: 0;
+      margin-bottom: 20px;
+   }
 
+   .tag__cards .card__item {
+      flex-direction: column;
+   }
 
+   .tags__card-info {
+      text-align: center;
+      padding-bottom: 20px;
+      border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+   }
+}

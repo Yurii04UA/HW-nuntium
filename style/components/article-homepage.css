@@ -35,6 +35,10 @@
    color: #1C1C1C80;
 }
 
+.uppercase {
+   text-transform: uppercase;
+}
+
 .time-mark {
    font-size: 16px;
    color: #1C1C1C80;

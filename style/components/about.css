@@ -164,7 +164,8 @@
    .about__card__info-title {
       font-size: 33px;
    }
-   .about__third-section h2{
+
+   .about__third-section h2 {
       font-size: 33px;
    }
 
@@ -216,7 +217,7 @@
       align-items: center;
    }
 
-   .about__card-third{
+   .about__card-third {
       align-items: center;
       padding-bottom: 0;
    }
@@ -225,18 +226,23 @@
       padding: 0;
       margin: 0;
    }
-   .about__card__info-title{
+
+   .about__card__info-title {
       text-align: center;
    }
-   .about__second-section{
+
+   .about__second-section {
       padding: 20px 15px;
    }
+
    .about__card__info-title {
       font-size: 26px;
    }
-   .about__first-section,.about__third-section  {
+
+   .about__first-section,
+   .about__third-section {
       padding: 75px 0;
-  }
+   }
 }
 
 
@@ -245,10 +251,12 @@
    .about__img-wrapper img {
       height: 120px;
    }
-   .about__third-section h2{
+
+   .about__third-section h2 {
       font-size: 26px;
    }
-   .about_logo{
+
+   .about_logo {
       width: 50%;
    }
 }
@@ -257,7 +265,9 @@
    .about__card__info__img {
       display: none;
    }
-   .about__first-section,.about__third-section  {
+
+   .about__first-section,
+   .about__third-section {
       padding: 35px 0;
-  }
+   }
 }

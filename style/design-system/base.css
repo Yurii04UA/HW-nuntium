@@ -1,11 +1,11 @@
 /* CSS reset */
+html,
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
-
-
+  height: 100%;
 }
 
 
@@ -45,6 +45,8 @@ a {
   padding: 30px 15px 0px 15px;
 }
 
+
+
 .lb {
   font-family: 'Libre Baskerville';
   font-weight: 400;
@@ -52,4 +54,8 @@ a {
 
 .os {
   font-family: 'Open Sans';
+}
+
+h1 {
+  height: 0;
 }
