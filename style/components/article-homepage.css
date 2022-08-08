@@ -1,24 +1,28 @@
-.article{
+.article {
    max-width: 1320px;
    height: 590px;
    position: absolute;
    left: 45px;
    margin-bottom: 50px;
 }
-.first-article{
+
+.first-article {
    background-image: url('../../img/first-article.png');
    background-size: cover;
    position: relative;
+   background-position: center;
    left: 0;
 }
-.second-article{
+
+.second-article {
    background-image: url('../../img/second-article.png');
    background-size: cover;
    position: relative;
    left: 0;
+   background-position: center;
 }
 
-.article__item{
+.article__item {
    background: #fff;
    max-width: 510px;
    padding: 75px 40px 95px 40px;
@@ -26,38 +30,39 @@
    display: inline-block;
 }
 
-.description{
+.description {
    font-size: 20px;
-   color: #1C1C1C80 ;
+   color: #1C1C1C80;
 }
-.time-mark{
+
+.time-mark {
    font-size: 16px;
-   color: #1C1C1C80 ;
+   color: #1C1C1C80;
    margin-bottom: 15px;
 }
 
-.title{
+.title {
    font-size: 33px;
    font-weight: 700;
    font-family: 'Libre Baskerville', serif;
    margin-bottom: 10px;
-   
+
 }
 
-.text:not(:last-child){
+.text:not(:last-child) {
    margin-bottom: 20px;
 }
 
-.second-article__article__item{
+.second-article__article__item {
    position: absolute;
    right: 80px;
    top: 60px;
-  
+
 }
 
 /* //Media queries */
-@media (max-width: 900px){
-   .article__item{
+@media (max-width: 900px) {
+   .article__item {
       margin: 0;
       position: absolute;
       left: 50%;
@@ -65,12 +70,16 @@
       width: 100%;
    }
 }
-@media (max-width: 650px){
-   .first-article,.second-article{
+
+@media (max-width: 650px) {
+
+   .first-article,
+   .second-article {
       background-image: none;
       height: auto;
    }
-   .article__item{
+
+   .article__item {
       padding: 20px;
       border: 2px solid;
       max-width: 100%;
@@ -78,14 +87,15 @@
       position: static;
       left: 0;
       right: 0;
-      transform: translate(0,0);
+      transform: translate(0, 0);
    }
-   .article{
+
+   .article {
       border-radius: 10px;
       box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.2);
    }
-   .article__item{
+
+   .article__item {
       text-align: center;
    }
 }
-
