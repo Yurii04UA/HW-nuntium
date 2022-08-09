@@ -1,4 +1,4 @@
-.article-page__footer {
+.article-page_footer {
    display: flex;
    justify-content: space-between;
    padding: 0;
@@ -40,7 +40,7 @@
       gap: 10px;
    }
 
-   .article-page__footer {
+   .article-page_footer {
       gap: 10px;
    }
 }

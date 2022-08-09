@@ -7,13 +7,13 @@ footer {
    text-align: center;
 }
 
-.footer__title {
+.footer_title {
    font-family: 'Libre Baskerville', serif;
    font-size: 33px;
    margin-bottom: 15px;
 }
 
-.footer__text {
+.footer_text {
    max-width: 330px;
    margin: 0 auto;
    margin-bottom: 25px;
@@ -32,11 +32,11 @@ footer {
 }
 
 @media (max-width: 600px) {
-   .footer__title {
+   .footer_title {
       font-size: 28px;
    }
 
-   .footer__text {
+   .footer_text {
       font-size: 14px;
    }
 }

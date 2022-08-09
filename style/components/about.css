@@ -5,19 +5,23 @@
    padding: 0 10px;
 }
 
-.about__first-section {
+.about_first-section {
    text-align: center;
    padding: 185px 0 200px 0;
 }
 
-.about__first-section p {
+.about_first-section p {
    max-width: 370px;
    margin: 0 auto;
    margin-top: 25px;
 }
 
+.about_logo {
+   width: 251px;
+}
+
 /* second section */
-.about__second-section {
+.about_second-section {
    background: #000;
    color: #fff;
    position: relative;
@@ -25,11 +29,12 @@
 
 }
 
-.about__card img {
+.about_card img {
    align-self: start;
 }
 
-.line-one {
+.about_second-section::after {
+   content: '';
    height: 1016px;
    width: 8px;
    background: #fff;
@@ -39,7 +44,8 @@
    right: 195px;
 }
 
-.line-two {
+.about_second-section::before {
+   content: '';
    height: 1450px;
    width: 8px;
    background: #fff;
@@ -49,28 +55,28 @@
    left: 160px;
 }
 
-.about__card__info {
+.about_card_info {
    max-width: 435px;
 }
 
-.about__card__info-title {
+.about_card_info-title {
    font-size: 42px;
    margin-bottom: 15px;
 }
 
-.about__card {
+.about_card {
    display: flex;
    gap: 50px;
    position: relative;
    z-index: 3;
 }
 
-.about__card__info-first {
+.about_card_info-first {
    padding-top: 30px;
    margin-left: 95px;
 }
 
-.about__card-second {
+.about_card-second {
    flex-direction: column;
    max-width: 557px;
    align-items: center;
@@ -80,16 +86,16 @@
    left: 317px;
 }
 
-.about__card-third {
+.about_card-third {
    flex-direction: column;
    padding-bottom: 140px;
 }
 
-.about__card__info-third {
+.about_card_info-third {
    margin-left: 235px;
 }
 
-.about__img-wrapper {
+.about_img-wrapper {
    display: flex;
    gap: 20px;
    justify-content: end;
@@ -97,75 +103,92 @@
 
 /* third section */
 
-.about__third-section h2 {
+.about_third-section h2 {
    font-size: 42px;
    max-width: 427px;
    margin: 0 auto;
    margin-bottom: 35px;
 }
 
-.about__third-section p {
+.about_third-section p {
    max-width: 427px;
    margin: 0 auto;
 }
 
-.about__third-section {
+.about_third-section {
    text-align: center;
    padding: 235px 0;
 }
 
 /* // Media querise */
 
-@media (max-width: 1200px) {
-   .about__card__info-first {
-      margin-left: 40px;
-   }
-
-   .about__card__info__img:not(:last-child) {
+@media (max-width: 1250px) {
+   .about_card-first {
       padding-right: 10px;
    }
 }
 
+@media (max-width: 1200px) {
+   .about_card_info-first {
+      margin-left: 40px;
+   }
+
+   .about_card_info_img:not(:last-child) {
+      padding-right: 10px;
+   }
+}
+
+@media (max-width: 1130px) {
+   .about_img-wrapper img {
+      height: 300px;
+   }
+}
+
 @media (max-width: 1100px) {
-   .about__card-second {
+   .about_card-second {
       top: -80px;
    }
 }
 
 @media (max-width: 1060px) {
-   .about__img-wrapper img {
-      height: 280px;
+   .about_img-wrapper img {
+      height: 290px;
    }
 
-   .about__card-second {
+   .about_card-second {
       left: 0;
       top: 0;
       flex-direction: row;
       max-width: 100%;
    }
 
-   .about__card__info-first,
-   .about__card__info-third {
+   .about_card_info-first,
+   .about_card_info-third {
       margin-left: 30px;
    }
 
-   .about__card__info-second {
+   .about_card_info-second {
       margin-right: 30px;
    }
 
-   .about__card__info {
+   .about_card-first {
+      justify-content: end;
+      padding-right: 0;
+   }
+
+   .about_card_info {
       background-color: #000;
    }
 
-   .about__card:not(:last-child) {
+   .about_card:not(:last-child) {
       margin-bottom: 40px;
    }
 
-   .about__card__info-title {
+   .about_card_info-title {
       font-size: 33px;
    }
 
-   .about__third-section h2 {
+   .about_third-section h2 {
       font-size: 33px;
    }
 
@@ -175,84 +198,105 @@
 @media (max-width: 950px) {
    .p1 {
       width: 40%;
+      align-self: start;
    }
 
-   .about__card img {
-      align-self: center;
-   }
-
-   .about__card {
+   .about_card {
       gap: 10px;
    }
 
-   .about__card__info {
+   .about_card_info {
       padding: 0;
    }
 
-   .line-one,
-   .line-two {
-      display: none;
+   .about_second-section::before,
+   .about_second-section::after {
+      height: 0;
    }
 
-   .about__card-first {
-      justify-content: end;
+   .about_img-wrapper img {
+      height: 230px;
    }
+
 }
 
 @media (max-width: 866px) {
-   .about__img-wrapper img {
+   .about_img-wrapper img {
       height: 180px;
    }
+
 
 }
 
 @media (max-width: 670px) {
-   .about__card-first {
+   .p1 {
+      width: 60%;
+      max-width: 100%;
+   }
+
+   .about_card img {
+      align-self: center;
+   }
+
+   .about_card-first {
       flex-direction: column-reverse;
       align-items: center;
    }
 
-   .about__card-second {
+   .about_card-second {
       flex-direction: column;
       align-items: center;
    }
 
-   .about__card-third {
+   .about_card-third {
       align-items: center;
       padding-bottom: 0;
    }
 
-   .about__card__info {
+   .about_card_info {
       padding: 0;
       margin: 0;
    }
 
-   .about__card__info-title {
+   .about_card_info-title {
       text-align: center;
    }
 
-   .about__second-section {
+   .about_second-section {
       padding: 20px 15px;
    }
 
-   .about__card__info-title {
+   .about_card_info-title {
       font-size: 26px;
    }
 
-   .about__first-section,
-   .about__third-section {
+   .about_first-section,
+   .about_third-section {
       padding: 75px 0;
    }
+
+   .about_card_info-text {
+      text-align: center;
+   }
+
+   .about_img-wrapper {
+      flex-direction: column;
+   }
+
+   .about_img-wrapper .about_card_info_img {
+      padding: 0;
+   }
+
 }
 
 
 
 @media (max-width: 589px) {
-   .about__img-wrapper img {
+   /* .about_img-wrapper img {
       height: 120px;
-   }
+   } */
 
-   .about__third-section h2 {
+   .about_third-section h2 {
       font-size: 26px;
    }
 
@@ -262,12 +306,12 @@
 }
 
 @media (max-width: 423px) {
-   .about__card__info__img {
+   /* .about_card_info_img {
       display: none;
-   }
+   } */
 
-   .about__first-section,
-   .about__third-section {
+   .about_first-section,
+   .about_third-section {
       padding: 35px 0;
    }
 }
