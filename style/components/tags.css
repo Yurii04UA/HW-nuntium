@@ -60,8 +60,13 @@ main {
    transition: all 0.3s ease;
 }
 
+.tags_btn a {
+   display: block;
+   line-height: 44px;
+}
+
 .tags_btn:hover {
-   background-color: rgba(0, 0, 0);
+   background-color: #000;
    color: #fff;
 }
 
@@ -84,9 +89,11 @@ main {
    flex-direction: column;
    justify-content: space-between;
 }
-.footer-tags{
+
+.footer-tags {
    width: 100%;
 }
+
 /* //Media queries */
 @media (max-width: 1000px) {
    .tags_seatch-panel {

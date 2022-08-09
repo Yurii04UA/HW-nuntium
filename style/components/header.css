@@ -11,8 +11,8 @@
    width: 178px;
 }
 
-.left,
-.nav-right {
+.header-left,
+.header-right {
    display: flex;
    align-items: center;
    gap: 10px;
@@ -102,8 +102,8 @@
       gap: 20px;
    }
 
-   .left,
-   .nav-right {
+   .header-left,
+   .header-right {
       width: 100%;
       justify-content: space-between;
    }
@@ -136,7 +136,7 @@
       display: none;
    }
 
-   .left {
+   .header-left {
       justify-content: center;
    }
 }
