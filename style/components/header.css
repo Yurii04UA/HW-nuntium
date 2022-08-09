@@ -52,6 +52,13 @@
    max-width: 360px;
    width: 100%;
    transition: all 0.3s ease;
+   outline: none
+}
+
+.search-panel:focus {
+   border: 2px solid #000;
+   outline: none;
+   box-shadow: none;
 }
 
 .search-img {
