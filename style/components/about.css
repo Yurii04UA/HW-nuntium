@@ -224,8 +224,6 @@
    .about_img-wrapper img {
       height: 180px;
    }
-
-
 }
 
 @media (max-width: 670px) {
@@ -288,8 +286,6 @@
    }
 
 }
-
-
 
 @media (max-width: 589px) {
    /* .about_img-wrapper img {

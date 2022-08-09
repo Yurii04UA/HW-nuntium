@@ -89,14 +89,13 @@
 }
 
 .btn:hover {
-   background-color: rgba(0, 0, 0);
+   background-color: #000;
    color: #fff;
 }
 
 /* // Media queries */
 
 @media (max-width: 900px) {
-
    .header {
       flex-wrap: wrap;
       gap: 20px;
@@ -123,9 +122,7 @@
    .search-img {
       right: 10px;
    }
-}
 
-@media (max-width: 900px) {
    .display {
       display: none;
    }

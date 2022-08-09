@@ -1,8 +1,7 @@
 const searchInput = document.querySelector(".search-panel");
 const searchImg = document.querySelector(".search-img");
-const search = document.querySelector('.search')
+const search = document.querySelector(".search");
 
-console.log(searchInput.classList);
 //open/close input
 searchImg.addEventListener("click", () => {
   searchInput.classList.toggle("active-search");
@@ -18,9 +17,9 @@ searchInput.addEventListener("keyup", (event) => {
 });
 
 // close if clicked on outside
-search.addEventListener('click',(e)=>{
-    e.stopPropagation()
-  })
+search.addEventListener("click", (e) => {
+  e.stopPropagation();
+});
 document.addEventListener("click", () => {
   searchInput.classList.remove("active-search");
   searchInput.value = "";
